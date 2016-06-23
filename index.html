@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+  <header>
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>GUESS THIS COLOR!</h1>
+            <h2 id="mainColor"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <p id="playAgain"><a href="#">New Game</a></p>
+          </div>
+          <div class="col-xs-4">
+            <p id="resultMsg"></p>
+          </div>
+          <div class="col-xs-4"></div>
+        </div>
+      </div>
+    </div>
+</header>
+<section>
+  <div class="container" id="mainSection">
+    <div class="row">
+      <div class="col-sm-4 color-box" id="box1"></div>
+      <div class="col-sm-4 color-box" id="box2"></div>
+      <div class="col-sm-4 color-box" id="box3"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 color-box" id="box4"></div>
+      <div class="col-sm-4 color-box" id="box5"></div>
+      <div class="col-sm-4 color-box" id="box6"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 color-box" id="box7"></div>
+      <div class="col-sm-4 color-box" id="box8"></div>
+      <div class="col-sm-4 color-box" id="box9"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="navbar-fixed-bottom">
+  <div class="container">
+    <p>Created By <a href="https://twitter.com/maryayi" target="_blank">M.Aryayi</a> &copy; 2016</p>
+  </div>
+</footer>
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

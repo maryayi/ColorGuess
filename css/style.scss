@@ -1,0 +1,75 @@
+$top-color: #2c3e50;
+$mid-color: #ecf0f1;
+$main-color: #3498db;
+// $color-box-size: 100px;
+$color-box-size: 126px;
+header {
+  background-color: $top-color;
+  margin-bottom: 30px;
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: $mid-color;
+  }
+  h2 {
+    text-align: center;
+    color: $mid-color;
+    text-transform: uppercase;
+  }
+}
+.top-header {
+  background-color: $top-color;
+  height: 150px;
+}
+.bottom-header {
+  background: $mid-color;
+  height: 30px;
+
+  p {
+    text-align: center;
+  }
+  ul {
+    text-align: center;
+  }
+  li {
+    display: inline;
+  }
+}
+body {
+  background: $main-color;
+}
+
+.color-box {
+  height: $color-box-size;
+  width: $color-box-size;
+  border-radius: 10px;
+  background-color: pink;
+  margin: 20px;
+  border: 1px solid $top-color;
+}
+
+#playAgain {
+  color: $top-color;
+  font-size: 2rem;
+  a {
+    text-decoration: none;
+  }
+}
+
+#resultMsg {
+  color: $top-color;
+  font-size: 2rem;
+}
+
+#mainSection {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+footer {
+  background-color: $mid-color;
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
+}
